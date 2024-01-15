@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 70%;
+    margin-top: 100px;
+    margin: 100px auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.leftcontainer{
+    width: 45%;
+    height: 300px;
+    border: 10px solid gray;
+    margin-right: 50px;
+
+}
+.rightcontainer{
+    width: 20%;
+    height: 300px;
+    border: 10px solid gray;
+}
+.textcontainer{
+    width: 90%;
+}
+.firstproduct{
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    background-color: gray;
+    color: white;
+    margin-left: 10px;
+}
+.firstproduct button{
+    width: 100px;
+    background-color: blue;
+    border-radius: 10%;
+    height: 30px;
+}
+/* Your existing CSS styles */
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.button button {
+    width: 30px;
+    background-color: blue;
+    border-radius: 5px;
+    height: 30px;
+    color: white;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+    color: red
+}
+.rightcontainer h1{
+    text-align: center;
+    color: red;
+}
+
+.cart-list {
+    list-style-type: none;
+}
+
+.cart-list li {
+    margin-bottom: 10px;
+}
+
+.total {
+    margin-top: 20px;
+}
+/* Your existing CSS styles */
+
+/* ... */
+.rightcontainer {
+    width: 20%;
+    height: 300px;
+    border: 10px solid gray;
+    position: relative; /* Add this to make it a positioning context */
+    padding: 0px 20px;
+}
+
+.total {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom as needed */
+    left: 20px; /* Adjust the distance from the left as needed */
+    font-size: x-large;
+    font-weight: bold;
+    background-color: gray;
+}
+
+.cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-list li {
+    margin-bottom: 10px;
+    background-color: gray;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
